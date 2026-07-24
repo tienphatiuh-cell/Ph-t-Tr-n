@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-syne: 'Syne', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #08080a;
+    color: #e7e5e4;
+  }
+
+  h1, h2, .font-cinzel {
+    font-family: var(--font-cinzel);
+  }
+
+  .font-syne {
+    font-family: var(--font-syne);
+  }
+}
+
+/* Custom Gold Utilities & Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0C2 0%, #D4AF37 40%, #AA7C11 80%, #E5C158 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D4AF37 0%, #B8860B 50%, #996515 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+.gold-border-glow-lg {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+}
+
+/* Film Grain Texture overlay */
+.bg-film-grain {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbar for smooth luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2823;
+  border-radius: 3px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Glassmorphism Luxury dark */
+.glass-gold-card {
+  background: rgba(18, 18, 22, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.glass-gold-card:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+

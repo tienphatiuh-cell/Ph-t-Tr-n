@@ -1,0 +1,6 @@
+{
+  "name": "Cinematic Video Portfolio",
+  "description": "Minimalist luxury video portfolio featuring black and gold aesthetic, smooth page transitions, and responsive YouTube/Vimeo video showcases.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
