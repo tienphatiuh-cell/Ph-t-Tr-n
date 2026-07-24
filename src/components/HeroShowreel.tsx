@@ -102,25 +102,7 @@ export const HeroShowreel: React.FC<HeroShowreelProps> = ({
           </button>
         </div>
 
-        {/* Key Metrics / Highlights Grid */}
-        <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          <div className="glass-gold-card p-4 rounded-xl text-center space-y-1">
-            <div className="font-cinzel text-2xl sm:text-3xl font-bold gold-gradient-text">120+</div>
-            <div className="text-[11px] uppercase tracking-wider text-stone-400 font-mono">Dự án Sản xuất</div>
-          </div>
-          <div className="glass-gold-card p-4 rounded-xl text-center space-y-1">
-            <div className="font-cinzel text-2xl sm:text-3xl font-bold gold-gradient-text">8+ Năm</div>
-            <div className="text-[11px] uppercase tracking-wider text-stone-400 font-mono">Kinh nghiệm Directing</div>
-          </div>
-          <div className="glass-gold-card p-4 rounded-xl text-center space-y-1">
-            <div className="font-cinzel text-2xl sm:text-3xl font-bold gold-gradient-text">14 Giải</div>
-            <div className="text-[11px] uppercase tracking-wider text-stone-400 font-mono">Giải Thưởng Điện Ảnh</div>
-          </div>
-          <div className="glass-gold-card p-4 rounded-xl text-center space-y-1">
-            <div className="font-cinzel text-2xl sm:text-3xl font-bold gold-gradient-text">4K / 8K</div>
-            <div className="text-[11px] uppercase tracking-wider text-stone-400 font-mono">ARRI & RED Quality</div>
-          </div>
-        </div>
+
 
       </div>
     </section>
